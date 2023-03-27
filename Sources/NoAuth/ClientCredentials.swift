@@ -16,6 +16,14 @@ public struct ClientCredentials: Codable {
     
     var otpKey: String?
     
+    var entityId: String?
+    
+    var entity: String?
+    
+    var deviceName: String?
+    
+    var appIdentifier: String?
+    
     public init(_id: String? = nil,
                 publicKey: String? = nil,
                 otpKey: String? = nil) {
