@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "nocrypto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ultim8p/NoCrypto.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f7f222ca6e811476c343932e7c97016292b35c45"
+      }
+    },
+    {
+      "identity" : "swift-crypto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-crypto.git",
+      "state" : {
+        "revision" : "da0fe44138ab86e380f40a2acbd8a611b07d3f64",
+        "version" : "2.4.0"
+      }
+    }
+  ],
+  "version" : 2
+}
