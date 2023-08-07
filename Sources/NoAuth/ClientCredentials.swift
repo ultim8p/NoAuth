@@ -10,19 +10,19 @@ import NoCrypto
 
 public struct ClientCredentials: Codable {
     
-    var _id: String?
+    public var _id: String?
     
-    var publicKey: String?
+    public var publicKey: String?
     
-    var otpKey: String?
+    public var otpKey: String?
     
-    var entityId: String?
+    public var entityId: String?
     
-    var entity: String?
+    public var entity: String?
     
-    var deviceName: String?
+    public var deviceName: String?
     
-    var appIdentifier: String?
+    public var appIdentifier: String?
     
     public init(_id: String? = nil,
                 publicKey: String? = nil,
