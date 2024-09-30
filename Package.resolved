@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ultim8p/NoCrypto.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "f7f222ca6e811476c343932e7c97016292b35c45"
+        "revision" : "6695cbd3187460d095ae1e157182eb58f299a746",
+        "version" : "0.0.1"
       }
     },
     {

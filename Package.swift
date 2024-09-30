@@ -16,7 +16,7 @@ let package = Package(
             targets: ["NoAuth"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ultim8p/NoCrypto.git", branch: "main"),
+        .package(url: "https://github.com/ultim8p/NoCrypto.git", from: "0.0.1"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
